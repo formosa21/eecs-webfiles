@@ -1,0 +1,117 @@
+body{
+  background-color: #b9a8a8;
+}
+
+h1{
+  font-family:arial;;
+}
+
+/*links*/
+
+a{
+    font-family:arial;;
+}
+
+a:link {
+    color: #993333;
+}
+
+/* visited link */
+a:visited {
+    color: #993333;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: #993333;
+}
+
+
+
+
+
+/*button*/
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+/*menu*/
+
+/* Visit http://www.menucool.com/horizontal/javascript-menu for source code and other menu CSS templates */
+
+#sse1
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color: #30322c;
+    height: 38px;
+    padding: 15px;
+    border-radius: 3px;
+    box-sizing: content-box;
+}
+#sses1
+{
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+#sses1 ul
+{
+    position: relative;
+    list-style-type: none;
+    float:left;
+    padding:0;margin:0;
+}
+#sses1 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+/*CSS for background bubble*/
+#sses1 li.highlight
+{
+    background-color:#C7D92C;
+    top:0px;
+    height:2px;
+    z-index: 1;
+    position: absolute;
+    overflow:hidden;
+}
+#sses1 li a
+{
+    box-sizing: content-box;
+    height:30px;
+    padding-top: 8px;
+    margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #fff;
+    font: normal 12px arial;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float:left;
+    position: relative;
+    z-index: 2;
+}

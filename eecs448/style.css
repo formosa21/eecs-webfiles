@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(198, 188, 188);
+    background-image: url(explosion.gif);
+    background-size: 5%;
+    background-repeat: repeat-x;
+
+}
+
+p {
+    background-color: rgb(221, 136, 136);
+    color: white;
+    font-family: arial
+    font-size: 19pt;
+}
+
+p.orange
+{
+    color: white;
+    background-color: rgb(232, 166, 99);
+}
+
+a
+{
+    background-color: rgb(197, 110, 121);
+    color: white;
+}
+
+a:hover
+{
+    background-color: rgb(198, 97, 97);
+    color: black
+}
