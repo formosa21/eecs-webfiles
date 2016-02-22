@@ -1,8 +1,9 @@
 body {
+    background-position: right;
     background-color: rgb(198, 188, 188);
-    background-image: url(explosion.gif);
-    background-size: 5%;
-    background-repeat: repeat-x;
+    background-image: url(bison_me.jpeg);
+    background-size: 60%;
+    background-repeat: no-repeat;;
 
 }
 
