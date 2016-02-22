@@ -21,12 +21,12 @@ p.orange
 
 a
 {
-    background-color: rgb(197, 110, 121);
+    /*background-color: rgb(197, 110, 121);*/
     color: white;
 }
 
 a:hover
 {
-    background-color: rgb(198, 97, 97);
+    /*background-color: rgb(198, 97, 97);*/
     color: black
 }
