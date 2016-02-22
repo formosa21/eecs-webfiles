@@ -20,6 +20,10 @@ p.orange
     background-color: rgb(232, 166, 99);
 }
 
+h1.bison{
+  font-family:Courier;;
+}
+
 a
 {
     /*background-color: rgb(197, 110, 121);*/

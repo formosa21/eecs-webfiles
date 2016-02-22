@@ -1,3 +1,5 @@
+
+<html>
 <?php
 
 	function GetChuProj_idea($index)
@@ -11,9 +13,8 @@
 			return  "2. Implement a simple neural network to recognize image of numbers from 0 to 9";
 		}
 	}
-?> 
+?>
 
-<html>
   <head>
   </head>
   <body>
