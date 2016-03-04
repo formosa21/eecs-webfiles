@@ -1,0 +1,48 @@
+<html>
+ <head>
+  <title>multiplication table</title>
+ </head>
+ <body>
+ <p>Multiplication table</p>
+ <?php
+ 	$rows = 101;
+	$cols = 101;
+
+  echo "<table border=\"1\">";
+
+    //1st row
+    echo '<tr>';
+      for ($c = 0; $c < $cols; $c++)
+      {
+        if($c == 0)
+        {echo '<td></td>';}
+        else
+          echo '<td>' . $c. '</td>';
+      }
+    echo'</tr>';
+
+    //the rest
+    for($r = 1; $r < $rows; $r++)
+    {
+      echo '<tr>';
+
+        for($c = 0; $c < $cols; $c++)
+        {
+          if($c == 0)
+            echo '<td>' . $r . '</td>';
+          else
+            echo '<td>' . $r*$c. '</td>';
+        }
+
+      echo'</tr>';
+    }
+
+
+  echo("</table>");
+
+
+
+
+  ?>
+ </body>
+</html>

@@ -1,0 +1,33 @@
+h1 {
+  font-family: serif;
+  font-weight: bolder;
+}
+
+h2{
+  font-family: arial;
+  font-weight: bolder;
+  color: white;
+}
+
+td {
+  background-color: grey;
+  font-family: cursive;
+
+}
+
+table {
+    background-color: darkgrey;
+}
+
+#name {
+  background-color: pink;
+}
+
+#password {
+  background-color: pink;
+}
+h1.backend{
+  font-family: serif;
+  font-size: 35;
+  font-weight: bolder;
+}

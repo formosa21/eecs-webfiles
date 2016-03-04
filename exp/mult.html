@@ -1,0 +1,32 @@
+<html>
+ <head>
+  <title>multiplication table</title>
+ </head>
+ <body>
+ <p>Multiplication table</p>
+ <?php 
+ 	$rows = 5;
+	$cols = 5;
+
+	echo "<table border=\"1\">";
+	echo "<td></td>";
+        for ($r =0; $r < $rows; $r++)
+        {	
+            if($r==0)
+            {}
+            else
+            	echo "<td></td>";
+
+            for ($c = 0; $c < $cols; $c++)
+            {
+               	echo( '<td>' .($c)*($r).'</td>');
+            }   
+            echo('</tr>');
+        }
+
+        echo("</table>");
+ 
+ 
+  ?> 
+ </body>
+</html>
